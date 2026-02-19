@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        heading: ['Montserrat', 'sans-serif'],
+        body: ['Open Sans', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -38,6 +42,7 @@ export default {
         accent: {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
+          hover: "hsl(var(--accent-hover))",
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
@@ -46,6 +51,10 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        "section-dark": {
+          DEFAULT: "hsl(var(--section-dark))",
+          foreground: "hsl(var(--section-dark-foreground))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
@@ -65,20 +74,12 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
         },
       },
       animation: {
