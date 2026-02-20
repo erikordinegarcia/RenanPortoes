@@ -5,7 +5,7 @@ const navLinks = [
   { label: 'Início', href: '#inicio' },
   { label: 'Serviços', href: '#servicos' },
   { label: 'Sobre', href: '#sobre' },
-  { label: 'Projetos', href: '#projetos' },
+  { label: 'Galeria', href: '#galeria' },
   { label: 'Contato', href: '#contato' },
 ];
 
@@ -52,7 +52,7 @@ const Header = () => {
         >
           {/* logo imagem */}
           <div className="bg-white px-3 py-2 rounded-lg shadow-sm">
-            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Logo" className="h-20 w-auto" />
+            <img src="/RenanPortoes/logo.png" alt="Logo" className="h-20 w-auto" />
           </div>
         </a>
 

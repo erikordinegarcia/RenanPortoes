@@ -22,7 +22,7 @@ const ProjectsSection = () => {
   const [selectedProject, setSelectedProject] = useState<number | null>(null);
 
   return (
-    <section id="projetos" className="py-20 lg:py-28 bg-background">
+    <section id="galeria" className="py-20 lg:py-28 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-on-scroll">
           <span className="text-accent font-heading font-semibold text-sm uppercase tracking-widest">

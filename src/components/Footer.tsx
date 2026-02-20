@@ -24,7 +24,7 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-bold text-lg mb-4">Links Rápidos</h4>
             <ul className="space-y-2">
-              {['#inicio', '#servicos', '#sobre', '#projetos'].map((href) => (
+              {['#inicio', '#servicos', '#sobre', '#galeria'].map((href) => (
                 <li key={href}>
                   <button
                     onClick={() => scrollTo(href)}
