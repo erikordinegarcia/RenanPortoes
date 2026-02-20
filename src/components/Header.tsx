@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-import logo from '../assets/logo.png';
 
 const navLinks = [
   { label: 'Início', href: '#inicio' },
@@ -53,7 +52,7 @@ const Header = () => {
         >
           {/* logo imagem */}
           <div className="bg-white px-3 py-2 rounded-lg shadow-sm">
-            <img src={logo} alt="Logo" className="h-20 w-auto" />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Logo" className="h-20 w-auto" />
           </div>
         </a>
 
