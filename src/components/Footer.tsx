@@ -12,11 +12,11 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <h3 className="font-heading font-extrabold text-2xl mb-4">
-              METAL<span className="text-accent">FORGE</span>
+              SP<span className="text-accent">PORTÕES</span>
             </h3>
             <p className="text-primary-foreground/60 text-sm leading-relaxed">
-              Soluções completas em serralheria com qualidade, segurança e
-              compromisso com o cliente.
+              Soluções completas em serralheria com qualidade, segurança e compromisso com o
+              cliente.
             </p>
           </div>
 
@@ -24,13 +24,13 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-bold text-lg mb-4">Links Rápidos</h4>
             <ul className="space-y-2">
-              {["#inicio", "#servicos", "#sobre", "#projetos"].map((href) => (
+              {['#inicio', '#servicos', '#sobre', '#projetos'].map((href) => (
                 <li key={href}>
                   <button
                     onClick={() => scrollTo(href)}
                     className="text-primary-foreground/60 hover:text-accent transition-colors text-sm capitalize"
                   >
-                    {href.replace("#", "")}
+                    {href.replace('#', '')}
                   </button>
                 </li>
               ))}
@@ -43,7 +43,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-3 text-primary-foreground/60 text-sm">
                 <Phone className="w-4 h-4 text-accent flex-shrink-0" />
-                (11) 99999-9999
+                (11) 9586-24537
               </li>
               <li className="flex items-center gap-3 text-primary-foreground/60 text-sm">
                 <Mail className="w-4 h-4 text-accent flex-shrink-0" />
@@ -60,7 +60,7 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-bold text-lg mb-4">Redes Sociais</h4>
             <div className="flex gap-3">
-              {["Facebook", "Instagram", "LinkedIn"].map((social) => (
+              {['Facebook', 'Instagram', 'LinkedIn'].map((social) => (
                 <a
                   key={social}
                   href="#"

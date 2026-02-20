@@ -18,7 +18,7 @@ const AboutSection = () => {
             <div className="rounded-lg overflow-hidden shadow-2xl">
               <img
                 src={aboutTeam}
-                alt="Equipe MetalForge"
+                alt="Equipe SpPortoes"
                 className="w-full h-[400px] lg:h-[500px] object-cover"
               />
             </div>
@@ -36,7 +36,7 @@ const AboutSection = () => {
               Tradição e inovação em cada <span className="text-accent">projeto</span>
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-              A MetalForge Serralheria nasceu da paixão por transformar metal em
+              A SpPortões Serralheria nasceu da paixão por transformar metal em
               soluções funcionais e esteticamente impecáveis. Com mais de uma
               década de atuação, nos tornamos referência em qualidade e
               compromisso no segmento.

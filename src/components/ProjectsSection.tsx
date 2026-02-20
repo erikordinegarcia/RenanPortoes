@@ -1,11 +1,12 @@
 import { useState } from "react";
 import { X } from "lucide-react";
-import project1 from "@/assets/project-1.jpg";
-import project2 from "@/assets/project-2.jpg";
-import project3 from "@/assets/project-3.jpg";
-import project4 from "@/assets/project-4.jpg";
-import project5 from "@/assets/project-5.jpg";
-import project6 from "@/assets/project-6.jpg";
+import project1 from '@/assets/project-1.png';
+import project2 from "@/assets/project-2.jpeg";
+import project3 from "@/assets/project-3.jpeg";
+import project4 from "@/assets/project-4.jpeg";
+import project5 from "@/assets/project-5.jpeg";
+import project6 from "@/assets/project-6.jpeg";
+import project7 from "@/assets/project-7.jpeg";
 
 const projects = [
   { image: project1, title: "Portão Residencial" },
@@ -14,6 +15,7 @@ const projects = [
   { image: project4, title: "Guarda-corpo Inox" },
   { image: project5, title: "Mezanino Industrial" },
   { image: project6, title: "Grade Decorativa" },
+  { image: project7, title: "Cobertura Industrial" },
 ];
 
 const ProjectsSection = () => {
@@ -27,7 +29,7 @@ const ProjectsSection = () => {
             Portfólio
           </span>
           <h2 className="font-heading font-extrabold text-3xl md:text-4xl lg:text-5xl text-foreground mt-3 mb-4">
-            Projetos <span className="text-accent">Realizados</span>
+            Galeria de <span className="text-accent">Fotos</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             Confira alguns dos nossos trabalhos entregues com excelência.
