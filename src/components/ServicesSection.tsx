@@ -50,18 +50,19 @@ const ServicesSection = () => {
             O que fazemos de <span className="text-accent">melhor</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Oferecemos soluções completas em serralheria com materiais de
-            primeira linha e acabamento impecável.
+            Oferecemos soluções completas em serralheria com materiais de primeira linha e
+            acabamento impecável.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
           {services.map((service, index) => (
             <div
               key={service.title}
-              className="animate-on-scroll group bg-card rounded-lg overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-border"
+              className="animate-on-scroll group bg-card rounded-lg overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-border flex flex-col h-full"
               style={{ transitionDelay: `${index * 100}ms` }}
             >
+              {/* IMAGEM */}
               <div className="relative h-56 overflow-hidden">
                 <img
                   src={service.image}
@@ -70,20 +71,18 @@ const ServicesSection = () => {
                 />
                 <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/20 transition-all duration-500" />
               </div>
-              <div className="p-6">
+
+              {/* CONTEÚDO */}
+              <div className="p-6 flex flex-col flex-grow">
                 <h3 className="font-heading font-bold text-xl text-foreground mb-3 group-hover:text-accent transition-colors">
                   {service.title}
                 </h3>
-                <p className="text-muted-foreground text-sm leading-relaxed mb-4">
+
+                <p className="text-muted-foreground text-sm leading-relaxed mb-6">
                   {service.description}
                 </p>
-                <button
-                  onClick={() => document.querySelector("#contato")?.scrollIntoView({ behavior: "smooth" })}
-                  className="text-accent hover:text-accent-hover font-semibold text-sm uppercase tracking-wide transition-colors inline-flex items-center gap-2 group/btn"
-                >
-                  Saiba mais
-                  <span className="transition-transform group-hover/btn:translate-x-1">→</span>
-                </button>
+
+                
               </div>
             </div>
           ))}
