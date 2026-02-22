@@ -9,13 +9,13 @@ import project6 from "@/assets/project-6.jpeg";
 import project7 from "@/assets/project-7.jpeg";
 
 const projects = [
-  { image: project1, title: "Portão Residencial" },
-  { image: project2, title: "Escada com Madeira" },
-  { image: project3, title: "Cobertura Estacionamento" },
-  { image: project4, title: "Guarda-corpo Inox" },
-  { image: project5, title: "Mezanino Industrial" },
-  { image: project6, title: "Grade Decorativa" },
-  { image: project7, title: "Cobertura Industrial" },
+  { image: project1, title: 'Portão Residencial Automatizado' },
+  { image: project2, title: 'Estrutura Metálica Industrial' },
+  { image: project3, title: 'Escada Metálica Amarela de Segurança' },
+  { image: project4, title: 'Galpão Industrial em Aço' },
+  { image: project5, title: 'Guarda-Corpo em Vidro e Inox' },
+  { image: project6, title: 'Cobertura Metálica Externa' },
+  { image: project7, title: 'Porta de Enrolar Comercial' },
 ];
 
 const ProjectsSection = () => {

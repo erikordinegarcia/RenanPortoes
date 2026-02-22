@@ -1,7 +1,7 @@
 import servicePortoes from "@/assets/service-portoes.jpg";
 import serviceEstruturas from "@/assets/service-estruturas.jpg";
 import serviceMezaninos from "@/assets/service-mezaninos.jpg";
-import serviceEscadas from "@/assets/service-escadas.jpg";
+import serviceEscadas from "@/assets/service-escadas.png";
 import serviceGuardacorpo from "@/assets/service-guardacorpo.jpg";
 import serviceCoberturas from "@/assets/service-coberturas.jpg";
 
@@ -82,7 +82,14 @@ const ServicesSection = () => {
                   {service.description}
                 </p>
 
-                
+                <a
+                  href="https://wa.me/5511958624537?"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-accent hover:bg-accent-hover text-accent-foreground font-semibold text-sm uppercase tracking-wide px-6 py-3 rounded-xl transition-all duration-300 w-full shadow-md hover:shadow-lg mt-auto flex items-center justify-center gap-2"
+                >
+                  Solicitar Orçamento
+                </a>
               </div>
             </div>
           ))}
