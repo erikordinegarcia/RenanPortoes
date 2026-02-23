@@ -10,7 +10,7 @@ const testimonials = [
   {
     name: "Ana Paula Souza",
     role: "Arquiteta",
-    text: "Trabalho com a MetalForge há 3 anos em diversos projetos. A qualidade do acabamento e o cumprimento de prazos são diferenciais únicos.",
+    text: "Trabalho com a SpPortões há 3 anos em diversos projetos. A qualidade do acabamento e o cumprimento de prazos são diferenciais únicos.",
     rating: 5,
   },
   {
